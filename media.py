@@ -1,18 +1,19 @@
 """ Media module used to create movie instanes """
 
+
 class Movie():
     """This class accepts four arguments for our movie page:
-		* Movie title
-		* Storyline
-		* Poster image
-		* Yourtube trailer
+        * Movie title
+        * Storyline
+        * Poster image
+        * Yourtube trailer
     """
 
-	#constructor
+    # constructor
     def __init__(self, movie_title, movie_storyline,
                  poster_image, trailer_youtube):
 
-		# sets movie properties
+        # sets movie properties
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
